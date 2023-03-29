@@ -1,6 +1,6 @@
-const form = document.querySelector('#create-task-form');
-const input = document.querySelector('#new-task-description');
-const list = document.querySelector('#tasks');
+const form = document.querySelector('#todo-form');
+const input = document.querySelector('#todo-input');
+const list = document.querySelector('#todo-list');
 
 form.addEventListener('submit', function(event) {
   event.preventDefault(); // prevent form submission
